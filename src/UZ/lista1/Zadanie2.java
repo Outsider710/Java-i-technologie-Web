@@ -6,7 +6,7 @@ import static java.lang.System.out;
 import static java.lang.System.setErr;
 
 
-public class Zadanie1 {
+public class Zadanie2 {
     private double a, b, c;
     private Scanner scanner = new Scanner(System.in);
 
