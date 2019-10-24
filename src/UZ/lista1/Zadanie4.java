@@ -14,7 +14,6 @@ public class Zadanie4 {
         getData(list);
 
         int average = getAverage(list);
-
         Collections.sort(list);
         showDetails(list, average);
     }
