@@ -33,7 +33,7 @@ public class Zadanie4 {
     private void showDetails(ArrayList<Integer> list, int average) {
         System.out.println("min" + list.get(0));
         System.out.println("max:" + list.get(list.size() - 1));
-        System.out.println("liczba:" + list.size());
+        System.out.println("liczba elementow:" + list.size());
         System.out.println("srednia: " + average);
     }
 
