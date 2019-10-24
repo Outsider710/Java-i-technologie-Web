@@ -1,9 +1,9 @@
 package UZ;
 
-import UZ.lista1.Zadanie5;
+import UZ.lista1.Zadanie6;
 
 public class Main {
     public static void main(String[] args) {
-        new Zadanie5().run();
+        new Zadanie6().run();
     }
 }
