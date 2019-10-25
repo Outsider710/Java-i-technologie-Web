@@ -1,6 +1,6 @@
 package UZ;
 
-import UZ.lista1.Zadanie6;
+import UZ.lista2.Zadanie6;
 
 public class Main {
     public static void main(String[] args) {

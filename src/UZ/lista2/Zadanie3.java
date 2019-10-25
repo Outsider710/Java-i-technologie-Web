@@ -1,4 +1,4 @@
-package UZ.lista1;
+package UZ.lista2;
 
 public class Zadanie3 {
 

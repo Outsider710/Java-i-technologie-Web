@@ -1,4 +1,4 @@
-package UZ.lista1;
+package UZ.lista2;
 
 import java.util.ArrayList;
 import java.util.Collections;
