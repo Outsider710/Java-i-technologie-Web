@@ -1,9 +1,5 @@
 package UZ.lista4;
 
-import com.sun.deploy.net.proxy.ProxyUnavailableException;
-
-import javax.jws.Oneway;
-
 public class Zadanie4 {
     public Zadanie4(){
         setMatrix();
