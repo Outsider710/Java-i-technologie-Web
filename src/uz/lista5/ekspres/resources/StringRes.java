@@ -9,7 +9,10 @@ public enum StringRes {
     MENUCUP("Menu kubków"),
     MENUMILK("Menu mleka"),
     MENUSUGAR("Menu cukru"),
-    NO_RSOURCE("Błąd ekspresu brak zasobów textowych");
+    NO_RSOURCE("Błąd ekspresu brak zasobów textowych"),
+    SELECT_OPTION("Wybierz Opcję."),
+    PREPARE_DRINK("Przygotuj napój");
+
 
     StringRes(String text) {
         this.text = text;
