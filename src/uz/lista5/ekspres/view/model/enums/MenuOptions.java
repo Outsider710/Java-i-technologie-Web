@@ -2,16 +2,21 @@ package uz.lista5.ekspres.view.model.enums;
 
 import uz.lista5.ekspres.core.View;
 import uz.lista5.ekspres.resources.StringRes;
-import uz.lista5.ekspres.view.view.prepare.Prepare;
+import uz.lista5.ekspres.view.view.menuOptions.coffee.CoffeeMenu;
+import uz.lista5.ekspres.view.view.menuOptions.cups.CupsMenu;
+import uz.lista5.ekspres.view.view.menuOptions.milk.MilkMenu;
+import uz.lista5.ekspres.view.view.menuOptions.prepare.PrepareMenu;
+import uz.lista5.ekspres.view.view.menuOptions.sugar.SugarMenu;
+import uz.lista5.ekspres.view.view.menuOptions.water.WaterMenu;
 
 public enum MenuOptions {
 
-    PREPARE(StringRes.MENUPREPARE, 1, new Prepare()),
-    COFFEE(StringRes.MENUCOFFEE, 2),
-    WATER(StringRes.MENUWATER, 3),
-    CUP(StringRes.MENUCUP, 4),
-    MILK(StringRes.MENUMILK, 5),
-    SUGAR(StringRes.MENUSUGAR, 6);
+    PREPARE(StringRes.MENU_PREPARE, 1, new PrepareMenu()),
+    COFFEE(StringRes.MENU_COFFEE, 2, new CoffeeMenu()),
+    WATER(StringRes.MENU_WATER, 3, new WaterMenu()),
+    CUP(StringRes.MENU_CUP, 4, new CupsMenu()),
+    MILK(StringRes.MENU_MILK, 5, new MilkMenu()),
+    SUGAR(StringRes.MENU_SUGAR, 6,new SugarMenu());
 
     private StringRes resource;
     private int id;
@@ -40,6 +45,6 @@ public enum MenuOptions {
     }
 
     public void getView() {
-         view.show();
+        view.show();
     }
 }

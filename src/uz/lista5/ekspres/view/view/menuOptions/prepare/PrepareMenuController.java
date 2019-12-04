@@ -1,18 +1,18 @@
-package uz.lista5.ekspres.view.view.main;
+package uz.lista5.ekspres.view.view.menuOptions.prepare;
 
 import uz.lista5.ekspres.core.Controller;
 import uz.lista5.ekspres.core.UserException;
 import uz.lista5.ekspres.core.UserExceptionInfo;
-import uz.lista5.ekspres.view.model.enums.MenuOptions;
+
 import java.util.Scanner;
 
-public class MainMenuController implements Controller {
+class PrepareMenuController implements Controller {
 
     private Scanner scanner = new Scanner(System.in);
 
     void selectOption() throws Exception {
         int selectedOption = scanner.nextInt();
-        if (selectedOption > 6 || selectedOption < 1) {
+        if (selectedOption > 3 || selectedOption < 1) {
             throw new UserException(UserExceptionInfo.getInstance().WRONG_SELECTION);
         }
         clearScreen();
@@ -20,7 +20,7 @@ public class MainMenuController implements Controller {
     }
 
     private void onOptionSelect(int selectedOption) {
-        MenuOptions.getFromId(selectedOption).getView();
+        //DrinkKind.getFromId(selectedOption).getView();
     }
 
 

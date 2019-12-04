@@ -24,7 +24,7 @@ public class MainMenu implements View {
 
     public void show() {
         System.out.println(StringRes.MENU.getText());
-        System.out.println(StringRes.SELECTOPTION.getText());
+        System.out.println(StringRes.SELECT_OPTION.getText());
         for (int i = 0; i < MenuOptions.values().length; i++) {
             showOptions(MenuOptions.values()[i], i + 1);
         }
