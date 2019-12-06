@@ -19,7 +19,7 @@ public class MainMenuController implements Controller {
         onOptionSelect(selectedOption);
     }
 
-    private void onOptionSelect(int selectedOption) {
+    private void onOptionSelect(int selectedOption) throws Exception {
         MenuOptions.getFromId(selectedOption).getView();
     }
 

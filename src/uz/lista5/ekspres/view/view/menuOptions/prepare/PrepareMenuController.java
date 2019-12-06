@@ -3,6 +3,7 @@ package uz.lista5.ekspres.view.view.menuOptions.prepare;
 import uz.lista5.ekspres.core.Controller;
 import uz.lista5.ekspres.core.UserException;
 import uz.lista5.ekspres.core.UserExceptionInfo;
+import uz.lista5.ekspres.view.model.enums.DrinkKind;
 
 import java.util.Scanner;
 
@@ -19,8 +20,8 @@ class PrepareMenuController implements Controller {
         onOptionSelect(selectedOption);
     }
 
-    private void onOptionSelect(int selectedOption) {
-        //DrinkKind.getFromId(selectedOption).getView();
+    private void onOptionSelect(int selectedOption) throws Exception {
+        DrinkKind.getFromId(selectedOption).getView();
     }
 
 

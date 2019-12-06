@@ -14,10 +14,12 @@ public class MainMenu implements View {
     try{
         controller.selectOption();
     }catch (UserException e){
-        System.out.println("Awaria ekspresu: " +  e.getMessage() + "!!!");
+        System.out.println(e.getMessage());
     }catch (Exception e)
     {
         //todo sue for debug only <System.out.println(e.getStackTrace());>
+        System.out.println(StringRes.WARING.getText());
+
     }
 
     }

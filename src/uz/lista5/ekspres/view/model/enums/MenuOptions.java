@@ -28,11 +28,6 @@ public enum MenuOptions {
         this.resource = option;
     }
 
-    MenuOptions(StringRes option, int id) {
-        this.id = id;
-        this.resource = option;
-    }
-
     static public MenuOptions getFromId(int id) {
         for (int i = 0; i < MenuOptions.values().length; i++)
             if (MenuOptions.values()[i].id == id)
@@ -44,7 +39,7 @@ public enum MenuOptions {
         return resource.getText();
     }
 
-    public void getView() {
+    public void getView() throws Exception {
         view.show();
     }
 }

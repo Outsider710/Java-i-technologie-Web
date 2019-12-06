@@ -18,7 +18,10 @@ public enum StringRes {
     ESPRESSO("Espresso"),
     AMERICAN("Amerykańska"),
     WHITE("Biała"),
-    BLACK("Czarna");;
+    BLACK("Czarna"),
+    SELECT_COFFEE_TYPE("Wybierz typ Kawy"),
+    WARING("Awaria ekspresu do kawy ekspres zsotanie wyłączony!!!"),
+    PREPARE_BLACK_COFFEE("Prygotownie czarnej kawy.");
 
 
     StringRes(String text) {
