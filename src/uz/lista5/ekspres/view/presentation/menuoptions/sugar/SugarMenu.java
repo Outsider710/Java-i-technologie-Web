@@ -1,4 +1,4 @@
-package uz.lista5.ekspres.view.view.menuOptions.sugar;
+package uz.lista5.ekspres.view.presentation.menuoptions.sugar;
 
 import uz.lista5.ekspres.core.View;
 

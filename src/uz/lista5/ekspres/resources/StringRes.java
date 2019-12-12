@@ -9,7 +9,6 @@ public enum StringRes {
     MENU_CUP("Menu kubków"),
     MENU_MILK("Menu mleka"),
     MENU_SUGAR("Menu cukru"),
-    NO_RESOURCE("Błąd ekspresu brak zasobów textowych"),
     PREPARE_DRINK("Przygotuj napój"),
     COFFEE("Kawa"),
     HOT_WATER("Gorąca woda"),
@@ -20,8 +19,10 @@ public enum StringRes {
     WHITE("Biała"),
     BLACK("Czarna"),
     SELECT_COFFEE_TYPE("Wybierz typ Kawy"),
-    WARING("Awaria ekspresu do kawy ekspres zsotanie wyłączony!!!"),
-    PREPARE_BLACK_COFFEE("Prygotownie czarnej kawy.");
+    WARNING("Awaria ekspresu do kawy ekspres zsotanie wyłączony!!!"),
+    PREPARE_BLACK_COFFEE("Prygotownie czarnej kawy."),
+    CHOOSE_SUGAR_AMOUNT("Wybierz ilośc cukru (0-5): "),
+    SELECT_CUP_SIZE("Wybierz wielkość kubka: \n1. 50ml\n2. 125ml \n3. 250ml \n4. 300ml");
 
 
     StringRes(String text) {

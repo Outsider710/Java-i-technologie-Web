@@ -1,27 +1,27 @@
-package uz.lista5.ekspres.view.view.main;
+package uz.lista5.ekspres.view.presentation.main;
 
 import uz.lista5.ekspres.core.UserException;
 import uz.lista5.ekspres.core.View;
 import uz.lista5.ekspres.resources.StringRes;
 import uz.lista5.ekspres.view.model.enums.MenuOptions;
 
+import java.util.Arrays;
+
 public class MainMenu implements View {
     private MainMenuController controller = new MainMenuController();
 
     public MainMenu() {
-    show();
-    System.out.println(StringRes.SELECT_OPTION.getText());
-    try{
-        controller.selectOption();
-    }catch (UserException e){
-        System.out.println(e.getMessage());
-    }catch (Exception e)
-    {
-        //todo sue for debug only <System.out.println(e.getStackTrace());>
-        System.out.println(StringRes.WARING.getText());
+        show();
+        System.out.println(StringRes.SELECT_OPTION.getText());
+        try {
+            controller.selectOption();
+        } catch (UserException e) {
+            System.out.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println(Arrays.toString(e.getStackTrace()).replace(',','\n'));
+            System.out.println(StringRes.WARNING.getText());
 
-    }
-
+        }
     }
 
     public void show() {

@@ -1,4 +1,4 @@
-package uz.lista5.ekspres.view.view.menuOptions.prepare;
+package uz.lista5.ekspres.view.presentation.menuoptions.prepare;
 
 
 import uz.lista5.ekspres.core.View;

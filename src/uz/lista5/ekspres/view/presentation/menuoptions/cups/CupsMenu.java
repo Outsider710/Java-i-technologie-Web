@@ -1,4 +1,4 @@
-package uz.lista5.ekspres.view.view.menuOptions.cups;
+package uz.lista5.ekspres.view.presentation.menuoptions.cups;
 
 import uz.lista5.ekspres.core.View;
 

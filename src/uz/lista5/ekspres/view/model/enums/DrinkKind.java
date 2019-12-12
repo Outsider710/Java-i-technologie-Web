@@ -2,7 +2,7 @@ package uz.lista5.ekspres.view.model.enums;
 
 import uz.lista5.ekspres.core.View;
 import uz.lista5.ekspres.resources.StringRes;
-import uz.lista5.ekspres.view.view.menuOptions.prepare.coffee.PrepareCoffee;
+import uz.lista5.ekspres.view.presentation.menuoptions.prepare.coffee.PrepareCoffee;
 
 public enum DrinkKind {
     COFFEE(StringRes.COFFEE, 1, new PrepareCoffee()), HOT_WATER(StringRes.HOT_WATER, 2), HOT_MILK(StringRes.HOT_MILK, 3);

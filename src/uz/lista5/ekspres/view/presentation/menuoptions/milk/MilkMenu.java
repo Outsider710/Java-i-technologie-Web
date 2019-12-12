@@ -1,4 +1,4 @@
-package uz.lista5.ekspres.view.view.menuOptions.milk;
+package uz.lista5.ekspres.view.presentation.menuoptions.milk;
 
 import uz.lista5.ekspres.core.View;
 

@@ -2,12 +2,12 @@ package uz.lista5.ekspres.view.model.enums;
 
 import uz.lista5.ekspres.core.View;
 import uz.lista5.ekspres.resources.StringRes;
-import uz.lista5.ekspres.view.view.menuOptions.coffee.CoffeeMenu;
-import uz.lista5.ekspres.view.view.menuOptions.cups.CupsMenu;
-import uz.lista5.ekspres.view.view.menuOptions.milk.MilkMenu;
-import uz.lista5.ekspres.view.view.menuOptions.prepare.PrepareMenu;
-import uz.lista5.ekspres.view.view.menuOptions.sugar.SugarMenu;
-import uz.lista5.ekspres.view.view.menuOptions.water.WaterMenu;
+import uz.lista5.ekspres.view.presentation.menuoptions.coffee.CoffeeMenu;
+import uz.lista5.ekspres.view.presentation.menuoptions.cups.CupsMenu;
+import uz.lista5.ekspres.view.presentation.menuoptions.milk.MilkMenu;
+import uz.lista5.ekspres.view.presentation.menuoptions.prepare.PrepareMenu;
+import uz.lista5.ekspres.view.presentation.menuoptions.sugar.SugarMenu;
+import uz.lista5.ekspres.view.presentation.menuoptions.water.WaterMenu;
 
 public enum MenuOptions {
 

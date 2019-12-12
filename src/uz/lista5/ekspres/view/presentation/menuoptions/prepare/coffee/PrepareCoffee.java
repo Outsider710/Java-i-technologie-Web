@@ -1,4 +1,4 @@
-package uz.lista5.ekspres.view.view.menuOptions.prepare.coffee;
+package uz.lista5.ekspres.view.presentation.menuoptions.prepare.coffee;
 
 import uz.lista5.ekspres.core.View;
 import uz.lista5.ekspres.resources.StringRes;
