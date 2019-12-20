@@ -2,6 +2,9 @@ package uz.lista6;
 
 import java.io.File;
 import java.io.PrintWriter;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -35,10 +38,21 @@ public class zad4 {
         Scanner scanner = new Scanner(file);
         ArrayList<Integer> tab =new  ArrayList();
 
-        while (scanner.hasNext())
+        for(int i =0;i<10;i++)
         {
-            tab.add(scanner.nextInt());
+            String [] textSplit = Files.readAllLines(Paths.get(file.getPath()), Charset.defaultCharset()).get(i).split("\\,");
+
+            for(int j =0;j<10;j++)
+            {
+                tab.add(textSplit[j].toInt());
+            }
+
+
         }
+
+
+
+         System.out.println(Arrays.toString(textSplit));
 
     }
 
